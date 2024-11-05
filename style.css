@@ -1,6 +1,6 @@
 html{
     /* font-family: cursive; alterando a fonte */
-    background-color: #EEEEEE;
+    background-color: #27374D;
 }
 
 /* MENU */
@@ -12,18 +12,13 @@ header{ /* alinha logo com menu lado a lado */
 }
 header a{ /* tira sublinhado e muda cor do link */
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .logo{ /* alinha logo com título lado a lado */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.logo p{ /* borda colorida no título do logo */
-    background-color: #00ADB5;
-    border-radius: 25px;
-    padding: 7px;
 }
 .logo img{ /* tamanho do logo */
     width: 55px;
@@ -42,16 +37,16 @@ header a{ /* tira sublinhado e muda cor do link */
     padding: 7px;
 }
 #inicio{ /* cor personalizada em cada pagina */
-    background-color: #00ADB5;
+    background-color: #27374D;
 }
 #sobre{ /* cor personalizada em cada pagina */
-    background-color: #00ADB5;
+    background-color: #27374D;
 }
-#produtos{ /* cor personalizada em cada pagina */
-    background-color: #00ADB5;
+#planos{ /* cor personalizada em cada pagina */
+    background-color: #27374D;
 }
 #contato{ /* cor personalizada em cada pagina */
-    background-color: #00ADB5;
+    background-color: #27374D;
 }
 
 /* PRINCIPAL */
@@ -67,6 +62,7 @@ main{
     background-image: url('Media/server.jpg');
     background-size: cover; /* Ajusta a imagem ao tamanho da tela */
     background-position: center; /* Centraliza a imagem */
+    width: 100%;
     color: white;
 }
 #planosprincipal{
@@ -76,13 +72,30 @@ main{
     flex-direction: row;
     width: 500px;
 }
+#planosprincipal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #27374D;
+    border-radius: 25px;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+#planosprincipal h4{
+    background-color: white;
+    color: #27374D;
+    border-radius: 25px;
+    padding: 7px;
+}
 
 /* RODAPE */
 footer{
     display: flex;
     justify-content: center;
-    background-color: #00ADB5;
+    /* background-color: #27374D; */
     position: fixed;
     width: 100%;
     bottom: 0;
+    color: white;
 }
