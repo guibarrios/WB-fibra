@@ -1,5 +1,5 @@
 html{
-    font-family: cursive; /* alterando a fonte */
+    /* font-family: cursive; alterando a fonte */
     background-color: #EEEEEE;
 }
 
@@ -55,7 +55,10 @@ header a{ /* tira sublinhado e muda cor do link */
 }
 
 /* PRINCIPAL */
-main{ /* alinha section com a div que estão no main */
+main{
+    height: 400px;
+}
+#principal{ /* alinha section com a div que estão no main */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -64,10 +67,14 @@ main{ /* alinha section com a div que estão no main */
     background-size: cover; /* Ajusta a imagem ao tamanho da tela */
     background-position: center; /* Centraliza a imagem */
 }
-.borda-cafe{ /* cria borda na imagem café principal */
-    background-color: #red;
-    border-radius: 500px;
-}
-.borda-cafe img{ /* define tamanho da imagem */
-    width: 500px;
+
+/* RODAPE */
+footer{
+    /* display: flex;
+    justify-content: center; */
+    background-color: #00ADB5;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
