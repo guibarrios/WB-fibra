@@ -4,26 +4,26 @@ html{
 }
 
 /* MENU */
-header{ /* alinha logo com menu lado a lado */
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-header a{ /* tira sublinhado e muda cor do link */
+header a{
     text-decoration: none;
     color: white;
 }
-.logo{ /* alinha logo com título lado a lado */
+.logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.logo img{ /* tamanho do logo */
+.logo img{
     width: 55px;
 }
-.menu ul{ /* alinha lista menu lado a lado */
+.menu ul{
     list-style: none;
     width: 350px;
     height: 50px;
@@ -32,40 +32,37 @@ header a{ /* tira sublinhado e muda cor do link */
     justify-content: space-around;
     align-items: center;
 }
-.menu ul li{ /* borda colorida na lista menu */
+.menu ul li{
     border-radius: 25px;
     padding: 7px;
 }
-#inicio{ /* cor personalizada em cada pagina */
+#inicio{
     background-color: white;
 }
-#inicio a{ /* cor personalizada em cada pagina */
+#inicio a{
     color: black;
 }
-#sobre{ /* cor personalizada em cada pagina */
+#sobre{
     background-color: white;
 }
-#sobre a{ /* cor personalizada em cada pagina */
+#sobre a{
     color: black;
 }
-#planos{ /* cor personalizada em cada pagina */
+#planos{
     background-color: white;
 }
-#planos a{ /* cor personalizada em cada pagina */
+#planos a{
     color: black;
 }
-#contato{ /* cor personalizada em cada pagina */
+#contato{
     background-color: white;
 }
-#contato a{ /* cor personalizada em cada pagina */
+#contato a{
     color: black;
 }
 
 /* PRINCIPAL */
-main{
-    
-}
-.formatacaoDiv{ /* alinha section com a div que estão no main */
+.formatacaoDiv{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -108,6 +105,32 @@ main{
     border-radius: 500px;
     width: 300px;
     height: 300px;
+}
+.lista{
+    list-style: disc;
+    text-align: justify;
+}
+.opcaoPlanos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.opcaoPlanos div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;    
+    color: #27374D;
+}
+.opcaoPlanos h4{
+    background-color: #27374D;
+    color: white;
+    border-radius: 25px;
+    padding: 7px;
 }
 
 /* RODAPE */
